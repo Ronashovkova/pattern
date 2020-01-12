@@ -7,4 +7,3 @@ public class ConsoleObserver implements Observer {
                 "The air temperature is " + temperature + ", the air pressure is " + pressure + ".");
     }
 }
-

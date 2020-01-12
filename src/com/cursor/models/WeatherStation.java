@@ -22,11 +22,6 @@ public class WeatherStation implements Observed {
     }
 
     @Override
-    public void removeObserver(Observer o) {
-        observers.remove(o);
-    }
-
-    @Override
     public void notifyObservers() {
         for (Observer o : observers) {
             o.handleEvent(temperature, pressure);
